@@ -8,5 +8,5 @@ having to transfer files to CAEN and then submit.
 
 ### pdf_scraper.py
 Web scraper to download PDFs from a given website.  
-Will either download to ./pdf_downloads or ./<GIVEN DIRECTORY NAME> . 
+Will either download to ./pdf_downloads or ./\<GIVEN DIRECTORY NAME\> . <br /> 
 Usage: python pdf_scraper.py \<URL\> \<OPTIONAL DIRECTORY NAME\> . 
