@@ -148,7 +148,7 @@ if __name__ == '__main__':
 
         # If the file path is a URL, download it
         # with a get request.
-        if result[:5] == 'https':
+        if result[:4] == 'http':
             source = result
         
         # Otherwise append the result onto the
